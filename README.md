@@ -99,7 +99,7 @@ to install as the superuser. As an alternative,
 <tt>make user-install</tt>
 will put the ruleset in your home-directory, but putting the style-check.rb script in your path is up to you.
 
-If you are using Windows, you are suggested to install  [https://www.cygwin.com/](Cygwin) first (make sure you install "ruby" and "make" package during the installation of Cygwin.
+If you are using Windows, you are suggested to install [Cygwin](https://www.cygwin.com/) first (make sure you install "ruby" and "make" package during the installation of Cygwin.
 
 To run the script,
 <tt>style-check.rb *.tex</tt>
@@ -170,12 +170,6 @@ Line by Line: How to Edit Your Own Writing, by Claire Cook.
 
 Michael Haardt wrote GNU [diction](http://www.gnu.org/software/diction/diction.html), which is similar in that it finds and complains about bad phrases, but different in that it also notes questionable phrases (such as any use of "affect") and does not expect to check LaTeX source. Style-check focuses on forbidden phrases and common typographic errors in LaTeX code.
 
-## To install
-
-<pre class="example">
-gem install style-check 
-</pre>
-[http://www.cs.umd.edu/~nspring/software/style-check-current.tar.gz](http://www.cs.umd.edu/~nspring/software/style-check-current.tar.gz)
 
 # Thanks
 
