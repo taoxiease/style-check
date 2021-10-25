@@ -1,13 +1,13 @@
-may not chose                       % phrase "may not" is future tense; "chose" is past.
-Note, that                          % syntax not only should you not "note that", no comma after note.
-people that are                     % phrase use people who are?
-Clearly,                            % syntax starting a sentence with clearly confuses me.
-In this section (we|I)              % phrase "In this section, we", or "In this section, I"
-essentially all                     % phrase "most"
-particulary difficult primarily     % phrase simplify
-Recall from above                   % phrase "recall"
-Further, (I|we) will also           % phrase drop further or also
-a variety of diverse                % phrase redundant
-the overall goal                    % phrase 'the goal'
-this is perhaps because             % phrase this may be because
-adding an additional                % phrase redundant
+may not chose                       % phrase === "may not" is future tense; "chose" is past.
+Note, that                          % syntax === not only should you not "note that", no comma after note.
+people that are                     % phrase === use people who are?
+Clearly,                            % syntax === starting a sentence with clearly confuses me.
+In this section (we|I)              % phrase === "In this section, we", or "In this section, I"
+essentially all                     % phrase === "most"
+particulary difficult primarily     % phrase === simplify
+Recall from above                   % phrase === "recall"
+Further, (I|we) will also           % phrase === drop further or also
+a variety of diverse                % phrase === redundant
+the overall goal                    % phrase === 'the goal'
+this is perhaps because             % phrase === this may be because
+adding an additional                % phrase === redundant
