@@ -2,35 +2,34 @@
 # capitalize is case sensitive, and also bracketed by non-word.
 # phrase and spelling are case insensitive, but bracketed by non-word characters.
 # syntax is case sensitive but not bracketed by non-word; probably best if used with regexes.
-\bet al\.[^}]        % syntax use the \etal{} command instead. (or write one to italicize)
-\bet\. al\.          % syntax use the \etal{} command, "et" needs no dot (et alii). (or write one to italicize)
-\bc\.f\.\b             % syntax should be cf. for "confer" (latin for compare)
-\b$i\)[^$]              % syntax leave the paren in math mode -- should be $i)$
-\b$ii\)[^$]             % syntax leave the paren in math mode -- should be $ii)$
-\b$iii\)[^$]            % syntax leave the paren in math mode -- should be $iii)$
-\b$iv\)[^$]             % syntax leave the paren in math mode -- should be $iv)$
-\b$v\)[^$]              % syntax leave the paren in math mode -- should be $v)$
-\ban [b-df-gj-np-tv-z] % syntax probably meant to use "a" instead of "an", though there are exceptions.
+\bet al\.[^}]        % syntax  === use the \etal{} command instead. (or write one to italicize)
+\bet\. al\.          % syntax  === use the \etal{} command, "et" needs no dot (et alii). (or write one to italicize)
+\bc\.f\.\b             % syntax  === should be cf. for "confer" (latin for compare)
+\b$i\)[^$]              % syntax  === leave the paren in math mode -- should be $i)$
+\b$ii\)[^$]             % syntax  === leave the paren in math mode -- should be $ii)$
+\b$iii\)[^$]            % syntax  === leave the paren in math mode -- should be $iii)$
+\b$iv\)[^$]             % syntax  === leave the paren in math mode -- should be $iv)$
+\b$v\)[^$]              % syntax  === leave the paren in math mode -- should be $v)$
+\ban [b-df-gj-np-tv-z] % syntax  === probably meant to use "a" instead of "an", though there are exceptions.
 \ban [B-DF-GJ-NP-TV-Z][^A-Z/] % syntax probably meant to use "a" instead of "an", though there are exceptions (like acronyms).
 \b[Aa] [aeiouAEIOU](?!se|ni|A|ur|RL|ti|ne|DP) % syntax probably meant to use "an" instead of "a", though there are exceptions. (user, useful, AA, unified, uniform, unique, Europe, one, UDP; n/a doesn't work, so use {n/a})
-This allows           % phrase tie more explicitly: This (x) allows...
-try and               % phrase "try to", though if you're using try as a noun in a compound sentence, this rule is wrong.
-and etc\.             % phrase come on. learn some latin.
-AT&T                  % syntax you poor thing, this won't compile.
-doesn't               % phrase be formal.
-be occur              % phrase what happens when I'm indecisive about what follows "can"
-is comprise(d|s) of   % phrase you probably mean "is composed of" because "comprises" is more a synonym for "contains" 
-todo                  % ignoredcommand
-texttt                  % ignoredcommand
-the above             % phrase horrible phrase that must be expunged.  you might use "these" instead, but best to make the sentence stand alone.
-referred to above     % phrase "these".
-(all|the|of) [0-9][ ] %  phrase use words for numbers in phrases.
-clearly shows         % phrase "clearly" is usually much.
-guarantee as much as possible % phrase then not really a guarantee "provide"
-\\emph\{[a-zA-Z ]*\} refers to % syntax you're being wimpy in the definition.
-loss off % phrase loss of?
-this could % phrase this "what" could
-with that has % phrase probably just one
-I\.e\. % syntax starting a sentence with i.e. is just ugly.
-E\.g\. % syntax starting a sentence with e.g. is just ugly.
-encapsulates with % phrase seen it, don't know what it means.
+This allows           % phrase  === tie more explicitly: This (x) allows...
+try and               % phrase  === "try to", though if you're using try as a noun in a compound sentence, this rule is wrong.
+and etc\.             % phrase  === come on. learn some latin.
+AT&T                  % syntax  === you poor thing, this won't compile.
+doesn't               % phrase  === be formal.
+be occur              % phrase  === what happens when I'm indecisive about what follows "can"
+is comprise(d|s) of   % phrase  === you probably mean "is composed of" because "comprises" is more a synonym for "contains" 
+todo                  % ignoredcommand  === 
+texttt                  % ignoredcommand  === 
+the above             % phrase  === horrible phrase that must be expunged.  you might use "these" instead, but best to make the sentence stand alone.
+referred to above     % phrase  === "these".
+(all|the|of) [0-9][ ] %  phrase  === use words for numbers in phrases.
+clearly shows         % phrase  === "clearly" is usually much.
+guarantee as much as possible % phrase  === then not really a guarantee "provide"
+\\emph\{[a-zA-Z ]*\} refers to % syntax  === you're being wimpy in the definition.
+loss off % phrase  === loss of?
+this could % phrase  === this "what" could
+with that has % phrase  === probably just one
+E\.g\. % syntax === starting a sentence with e.g. is just ugly.
+encapsulates with % phrase === seen it, don't know what it means.
