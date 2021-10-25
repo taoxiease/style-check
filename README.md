@@ -99,13 +99,19 @@ to install as the superuser. As an alternative,
 <tt>make user-install</tt>
 will put the ruleset in your home-directory, but putting the style-check.rb script in your path is up to you.
 
-If you are using Windows, you are suggested to install [Cygwin](https://www.cygwin.com/) first (make sure you install "ruby" and "make" package during the installation of Cygwin.
+If you are using Windows, you are suggested to install [Cygwin](https://www.cygwin.com/) first (make sure you install "ruby" and "make" packages during the installation of Cygwin. To put the style-check.rb script in your path in Cygwin, you can update the contents of the .bash_profile file under your cygwin home directory (e.g., C:\cygwin64\home\USERNAME) to add the following line: PATH="/cygdrive/c/Users/USERNAME/workspace/style-check:${PATH}", where the first part is the Windows directory for you to put your style-check.rb script. 
 
 To run the script,
+<tt>style-check.rb -v *.tex</tt>
+
+In the output logs, you can focus your attention to "===", which leads the justification texts.
+
+If you would like to see no justifictaion, run
 <tt>style-check.rb *.tex</tt>
 
-Or, if you'd like a little justification with your scolding,
-<tt>style-check.rb -v *.tex</tt>
+When you or someone else udpate the rules (e.g., those in this repo), you can redownload these rule files and use them to overwrite the ones under ~/.style-check.d (e.g., for Windows, under C:\cygwin64\home\USERNAME\.style-check.d).
+
+If you would like to focus on only those rule files that are highly relevant to you (e.g., the ase-rule file for people from the PKU ASE lab) to reduce false warnings, you can remove all files except for the ones that you would like to focus on under ~/.style-check.d.
 
 # Limitations
 
