@@ -1,1 +1,5 @@
-
+function             % ASE phrase: if you mean "functionality", then use "functionality" because function can mean C function!
+functions            % ASE phrase: if you mean "functionalities", then use "functionalities" because functions can mean C functions!
+method               % ASE phrase: if you mean "technique", then use "technique" because method can mean Java method!
+methods              % ASE phrase: if you mean "techniques", then use "techniques" because methods can mean Java methods!
+check if             % ASE phrase: if you mean "check whether", then use "check whether" because if can mean when!
